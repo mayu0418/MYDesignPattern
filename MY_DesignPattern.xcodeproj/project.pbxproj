@@ -10,6 +10,7 @@
 		663F97891E953A1000684D1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F97881E953A1000684D1B /* main.m */; };
 		663F97911E953A5E00684D1B /* MYStrategyPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F97901E953A5E00684D1B /* MYStrategyPattern.m */; };
 		663F97941E954B2600684D1B /* MYObserverPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F97931E954B2600684D1B /* MYObserverPattern.m */; };
+		663F97971E964F4400684D1B /* MYDecoratorPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F97961E964F4400684D1B /* MYDecoratorPattern.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		663F97901E953A5E00684D1B /* MYStrategyPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYStrategyPattern.m; sourceTree = "<group>"; };
 		663F97921E954B2600684D1B /* MYObserverPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYObserverPattern.h; sourceTree = "<group>"; };
 		663F97931E954B2600684D1B /* MYObserverPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYObserverPattern.m; sourceTree = "<group>"; };
+		663F97951E964F4400684D1B /* MYDecoratorPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYDecoratorPattern.h; sourceTree = "<group>"; };
+		663F97961E964F4400684D1B /* MYDecoratorPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYDecoratorPattern.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				663F97931E954B2600684D1B /* MYObserverPattern.m */,
 				663F978F1E953A5E00684D1B /* MYStrategyPattern.h */,
 				663F97901E953A5E00684D1B /* MYStrategyPattern.m */,
+				663F97951E964F4400684D1B /* MYDecoratorPattern.h */,
+				663F97961E964F4400684D1B /* MYDecoratorPattern.m */,
 			);
 			path = MY_DesignPattern;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			files = (
 				663F97941E954B2600684D1B /* MYObserverPattern.m in Sources */,
 				663F97891E953A1000684D1B /* main.m in Sources */,
+				663F97971E964F4400684D1B /* MYDecoratorPattern.m in Sources */,
 				663F97911E953A5E00684D1B /* MYStrategyPattern.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

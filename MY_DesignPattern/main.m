@@ -10,6 +10,7 @@
 #import "MYStrategyPattern.h"
 
 int main(int argc, const char * argv[]) {
-    observerPattern();
+//    observerPattern();
+    decoratorPattern();
     return 0;
 }
